@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\10718916\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10718916\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_HyperCasual_Unity3.5f1.-1327126255.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10718916\Documents\HyperCasual_Unity-3.5f1\HyperCasual_Unity3.5f1" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="FloatData.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
+          <e p="ImageController.cs" t="Include" />
+          <e p="TriggerEventBehaviour.cs" t="Include" />
+        </e>
+      </e>
+      <e p="HyperCasual_Unity3.5f1.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
