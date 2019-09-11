@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class ImageController : MonoBehaviour
 {
 	private Image imageComponent;
-	public UnityEvent UpdateImageEvent;
 	private void Start ()
 	{
 		imageComponent = GetComponent<Image>();
@@ -20,9 +19,5 @@ public class ImageController : MonoBehaviour
 	public void UpdateImageComponent(FloatData dataObj)
 	{
 		imageComponent.fillAmount = dataObj.value;
-	}
-	
-	private void Update () {
-		UpdateImageEvent.Invoke();
 	}
 }

@@ -5,11 +5,11 @@ using UnityEngine.Events;
 
 public class GameActionHandler : MonoBehaviour
 {
-    public GameAction GameActionObj;
+    public GameAction gameActionObj;
     public UnityEvent handlerEvent;
     private void Start ()
     {
-        GameActionObj.action += Action;
+        gameActionObj.action += Action;
     }
     private void Action()
     {
