@@ -1,58 +1,48 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class ActionCalls : MonoBehaviour
 {
-    public float speed = 1f;
-    public float rotateSpeed = 10f;
-    public float scaleSpeed = .01f;
-
+    public float speed = 1f, rotateSpeed = 10f, scaleSpeed = 0.02f;
     private Vector3 location, rotations, scales;
-    private UnityAction transformAction;
+    private List<UnityAction> actions;
+    private int i;
 
-    private void Start()
+    private void Awake()
     {
-        transformAction = OnMove;
+        actions = new List<UnityAction> {OnMove, OnRotate, OnScale};
     }
-    public enum Transformstates
-    {
-        Move,
-        Rotate,
-        Scale
-
-    }
-
     private void OnMouseDown()
     {
-       //if (transformAction == OnMove)
-           
+        if (i == actions.Count - 1)
+            i = 0;
+        else
+            i++;
     }
 
-   
-
-    void Update() //Update should be used to call functions not define them
+    private void Update() //Update should be used to call functions not define them
     {
-        transformAction();
-    }
+        {
+            actions[i]();
+        }
 
-    public void OnMove()
-    {
-        location.x = speed * Time.deltaTime; //Normalize values base on frame rate
-        transform.Translate(location);
-    }
+        private void OnMove()
+        {
+            location.x = speed * Time.deltaTime; //Normalize values base on frame rate
+            transform.Translate(location);
+        }
 
-    public void OnRotate()
-    {
-        rotations.y = rotateSpeed*Time.deltaTime;
-        transform.Rotate(rotations);
-    }
+        private void OnRotate()
+        {
+            rotations.y = rotateSpeed * Time.deltaTime;
+            transform.Rotate(rotations);
+        }
 
-    public void OnScale()
-    {
-        scales.Set(newX: scaleSpeed, newY: scaleSpeed, newZ: scaleSpeed);
-        transform.localScale = scales;
+        private void OnScale()
+        {
+            scales.Set(scaleSpeed, scaleSpeed, scaleSpeed);
+            transform.localScale += scales;
+        }
     }
 }
