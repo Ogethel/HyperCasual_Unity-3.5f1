@@ -8,6 +8,9 @@ public class ActionCalls : MonoBehaviour
     private Vector3 location, rotations, scales;
     private List<UnityAction> actions;
     private int i;
+    [SerializeField] private UnityAction OnMove;
+    [SerializeField] private UnityAction OnRotate;
+    [SerializeField] private UnityAction OnScale;
 
     private void Awake()
     {
@@ -27,19 +30,19 @@ public class ActionCalls : MonoBehaviour
             actions[i]();
         }
 
-        private void OnMove()
+        void OnMove()
         {
             location.x = speed * Time.deltaTime; //Normalize values base on frame rate
             transform.Translate(location);
         }
 
-        private void OnRotate()
+        void OnRotate()
         {
             rotations.y = rotateSpeed * Time.deltaTime;
             transform.Rotate(rotations);
         }
 
-        private void OnScale()
+        void OnScale()
         {
             scales.Set(scaleSpeed, scaleSpeed, scaleSpeed);
             transform.localScale += scales;
