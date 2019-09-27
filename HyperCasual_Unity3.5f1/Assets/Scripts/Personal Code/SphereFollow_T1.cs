@@ -14,6 +14,7 @@ public class SphereFollow_T1 : MonoBehaviour
     void Start()
     {
         nma = this.GetComponent<NavMeshAgent>();
+        target = GameObject.FindWithTag("Player");
         nma.speed = speed;
     }
 
