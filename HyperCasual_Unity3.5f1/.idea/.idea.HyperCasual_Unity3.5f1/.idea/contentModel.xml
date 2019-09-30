@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="Anthony's Code" t="Include">
             <e p="ActionCalls.cs" t="Include" />
+            <e p="AiWithNavMesh.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
             <e p="EventsWithArgs.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
@@ -29,6 +30,7 @@
             </e>
             <e p="NewBehaviourScript.cs" t="Include" />
             <e p="SphereFollow_T1.cs" t="Include" />
+            <e p="WaveSpawner.cs" t="Include" />
           </e>
         </e>
       </e>

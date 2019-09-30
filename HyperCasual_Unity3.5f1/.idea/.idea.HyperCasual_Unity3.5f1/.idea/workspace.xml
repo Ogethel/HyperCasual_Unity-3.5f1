@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AiWithNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/TransformController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,6 +33,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AiWithNavMesh.cs" />
       </list>
     </option>
   </component>
@@ -97,6 +99,7 @@
       <workItem from="1569107913176" duration="1978000" />
       <workItem from="1569118237427" duration="986000" />
       <workItem from="1569267200184" duration="4680000" />
+      <workItem from="1569872353227" duration="2063000" />
     </task>
     <servers />
   </component>
