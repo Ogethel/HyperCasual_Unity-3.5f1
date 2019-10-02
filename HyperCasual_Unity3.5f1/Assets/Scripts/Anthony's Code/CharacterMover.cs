@@ -1,19 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
-[RequireComponent((typeof(CharacterController)))] //Puts the character controller (Required Component on the unity asset by default
-
+[RequireComponent(typeof(CharacterController))]
 public class CharacterMover : MonoBehaviour
 {
-    private CharacterController controller;
     public float moveSpeed = 10f, jumpSpeed = 30f, gravity = 3f;
+    private CharacterController controller;
     private Vector3 position;
-    private int jumpCount;
-    public int jumpCountMax = 2;
+    public IntData jumpData;
+  
     
-        
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -24,17 +21,15 @@ public class CharacterMover : MonoBehaviour
         position.x = moveSpeed * Input.GetAxis("Horizontal");
         position.z = moveSpeed * Input.GetAxis("Vertical");
         position.y -= gravity;
-        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+
+        if (Input.GetButton("Jump") && jumpData.value < jumpData.maxValue)
         {
             position.y = jumpSpeed;
-            jumpCount++;
-        }
-        if (controller.isGrounded)
+            jumpData.value++;
+        } else if (controller.isGrounded)
         {
             position.y = 0;
-            jumpCount = 0;
         }
-        controller.Move(motion:position * Time.deltaTime);
-
+        controller.Move(position * Time.deltaTime);
     }
 }

@@ -4,48 +4,43 @@ using UnityEngine.Events;
 
 public class ActionCalls : MonoBehaviour
 {
-    public float speed = 1f, rotateSpeed = 10f, scaleSpeed = 0.02f;
-    private Vector3 location, rotations, scales;
-    private List<UnityAction> actions;
-    private int i;
-    [SerializeField] private UnityAction OnMove;
-    [SerializeField] private UnityAction OnRotate;
-    [SerializeField] private UnityAction OnScale;
+	public float speed = 1f, rotateSpeed = 10f, scaleSpeed = 0.02f;
+	private Vector3 location, rotations, scales;
+	private List<UnityAction> actions;
+	private int i;
+	
+	private void Awake()
+	{
+		actions = new List<UnityAction> {OnMove, OnRotate, OnScale};
+	}
+	private void OnMouseDown()
+	{
+		if (i == actions.Count-1)
+			i = 0;
+		else
+			i++;
+	}
 
-    private void Awake()
-    {
-        actions = new List<UnityAction> {OnMove, OnRotate, OnScale};
-    }
-    private void OnMouseDown()
-    {
-        if (i == actions.Count - 1)
-            i = 0;
-        else
-            i++;
-    }
+	private void Update ()
+	{
+		actions[i]();
+	}
 
-    private void Update() //Update should be used to call functions not define them
-    {
-        {
-            actions[i]();
-        }
+	private void OnMove()
+	{
+		location.x = speed * Time.deltaTime;
+		transform.Translate(location);
+	}
 
-        void OnMove()
-        {
-            location.x = speed * Time.deltaTime; //Normalize values base on frame rate
-            transform.Translate(location);
-        }
+	private void OnRotate()
+	{
+		rotations.y = rotateSpeed * Time.deltaTime;
+		transform.Rotate(rotations);
+	}
 
-        void OnRotate()
-        {
-            rotations.y = rotateSpeed * Time.deltaTime;
-            transform.Rotate(rotations);
-        }
-
-        void OnScale()
-        {
-            scales.Set(scaleSpeed, scaleSpeed, scaleSpeed);
-            transform.localScale += scales;
-        }
-    }
+	private void OnScale()
+	{
+		scales.Set(scaleSpeed,scaleSpeed,scaleSpeed);
+		transform.localScale += scales;
+	}
 }
