@@ -235,9 +235,9 @@ ScriptedImporter:
     material: {fileID: 2100000, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
     generatedTextures:
     - {fileID: 2800000, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
-    - {fileID: 2800006, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
-    - {fileID: 2800004, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
     - {fileID: 2800002, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
+    - {fileID: 2800004, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
+    - {fileID: 2800006, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
   - graphLabel: Car Iridescent Paint_1
     prototypeName: Car Iridescent Paint
     graphDescIndex: 0

@@ -244,9 +244,9 @@ ScriptedImporter:
     material: {fileID: 2100000, guid: 4557ed8f186c1f94abab560424b2657e, type: 3}
     generatedTextures:
     - {fileID: 2800000, guid: 4557ed8f186c1f94abab560424b2657e, type: 3}
-    - {fileID: 2800006, guid: 4557ed8f186c1f94abab560424b2657e, type: 3}
-    - {fileID: 2800004, guid: 4557ed8f186c1f94abab560424b2657e, type: 3}
     - {fileID: 2800002, guid: 4557ed8f186c1f94abab560424b2657e, type: 3}
+    - {fileID: 2800004, guid: 4557ed8f186c1f94abab560424b2657e, type: 3}
+    - {fileID: 2800006, guid: 4557ed8f186c1f94abab560424b2657e, type: 3}
   - graphLabel: Carbon Fiber Plain Weave_1
     prototypeName: Carbon Fiber Plain Weave
     graphDescIndex: 0
@@ -282,7 +282,7 @@ ScriptedImporter:
         scale: {x: 1, y: 1}
         offset: {x: 0, y: 0}
       - name: _MainTex
-        texture: {fileID: 2800008, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
+        texture: {fileID: 2800008, guid: 4557ed8f186c1f94abab560424b2657e, type: 3}
         scale: {x: 1, y: 1}
         offset: {x: 0, y: 0}
       - name: _MetallicGlossMap

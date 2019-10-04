@@ -196,11 +196,11 @@ ScriptedImporter:
       bGenerateOnLoad: 1
     material: {fileID: 2100000, guid: e57bfeedb7c607a4b99652412b9e2270, type: 3}
     generatedTextures:
-    - {fileID: 2800008, guid: e57bfeedb7c607a4b99652412b9e2270, type: 3}
     - {fileID: 2800000, guid: e57bfeedb7c607a4b99652412b9e2270, type: 3}
-    - {fileID: 2800006, guid: e57bfeedb7c607a4b99652412b9e2270, type: 3}
-    - {fileID: 2800004, guid: e57bfeedb7c607a4b99652412b9e2270, type: 3}
     - {fileID: 2800002, guid: e57bfeedb7c607a4b99652412b9e2270, type: 3}
+    - {fileID: 2800004, guid: e57bfeedb7c607a4b99652412b9e2270, type: 3}
+    - {fileID: 2800006, guid: e57bfeedb7c607a4b99652412b9e2270, type: 3}
+    - {fileID: 2800008, guid: e57bfeedb7c607a4b99652412b9e2270, type: 3}
   - graphLabel: Fossilized Streams_1
     prototypeName: Fossilized Streams
     graphDescIndex: 0
