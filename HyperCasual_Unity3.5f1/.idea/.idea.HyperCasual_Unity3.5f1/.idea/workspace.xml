@@ -13,11 +13,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CreateSOData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AiWithNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/TransformController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ActionCalls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AnimController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Personal Code/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -34,6 +38,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AiWithNavMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Debugger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/MouseEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CreateSOData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AnimController.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +109,8 @@
       <workItem from="1569267200184" duration="4680000" />
       <workItem from="1569872353227" duration="2063000" />
       <workItem from="1570043513741" duration="1261000" />
+      <workItem from="1571083285972" duration="2050000" />
+      <workItem from="1571085367504" duration="70000" />
     </task>
     <servers />
   </component>

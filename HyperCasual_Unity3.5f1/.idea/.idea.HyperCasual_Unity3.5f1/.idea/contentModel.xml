@@ -33,13 +33,18 @@
           <e p="Anthony's Code" t="Include">
             <e p="ActionCalls.cs" t="Include" />
             <e p="AiWithNavMesh.cs" t="Include" />
+            <e p="AnimController.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
+            <e p="Coroutines.cs" t="Include" />
+            <e p="CreateSOData.cs" t="Include" />
+            <e p="Debugger.cs" t="Include" />
             <e p="EventsWithArgs.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
             <e p="ImageController.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
+            <e p="MouseEvents.cs" t="Include" />
             <e p="TransformController.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />
           </e>
