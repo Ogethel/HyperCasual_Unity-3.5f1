@@ -12,17 +12,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CreateSOData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AiWithNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/TransformController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ActionCalls.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AnimController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Personal Code/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CinmachineController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Instancer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,6 +46,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/MouseEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CreateSOData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AnimController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/SceneMachineController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CinMachineController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CinmachineController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Instancer.cs" />
       </list>
     </option>
   </component>
@@ -111,6 +121,7 @@
       <workItem from="1570043513741" duration="1261000" />
       <workItem from="1571083285972" duration="2050000" />
       <workItem from="1571085367504" duration="70000" />
+      <workItem from="1571255026180" duration="2059000" />
     </task>
     <servers />
   </component>

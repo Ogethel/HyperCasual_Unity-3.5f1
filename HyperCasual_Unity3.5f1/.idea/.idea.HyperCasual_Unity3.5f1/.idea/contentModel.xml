@@ -35,6 +35,7 @@
             <e p="AiWithNavMesh.cs" t="Include" />
             <e p="AnimController.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
+            <e p="CinMachineController.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
             <e p="CreateSOData.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
@@ -43,6 +44,7 @@
             <e p="GameAction.cs" t="Include" />
             <e p="GameActionHandler.cs" t="Include" />
             <e p="ImageController.cs" t="Include" />
+            <e p="Instancer.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="TransformController.cs" t="Include" />
