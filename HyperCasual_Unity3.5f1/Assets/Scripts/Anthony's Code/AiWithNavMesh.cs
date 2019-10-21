@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class AiWithNavMesh : MonoBehaviour
+public class AiWithNavMesh : MonoBehaviour, IRun, ITest
 {
     private NavMeshAgent agent;
     public Transform player;
@@ -28,5 +28,22 @@ public class AiWithNavMesh : MonoBehaviour
     void Update()
     {
         agent.destination = destination.position;
+    }
+
+    public float Speed { get; set; }
+
+    public void Run()
+    {
+        
+    }
+
+    public void Run(float f)
+    {
+        
+    }
+
+    public void Test()
+    {
+        
     }
 }

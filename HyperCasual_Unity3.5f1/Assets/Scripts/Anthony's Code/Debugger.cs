@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-
 [CreateAssetMenu]
 public class Debugger : ScriptableObject
 {

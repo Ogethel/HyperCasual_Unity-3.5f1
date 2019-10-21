@@ -29,16 +29,26 @@
             </e>
           </e>
         </e>
+        <e p="Interfaces.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Anthony's Code" t="Include">
             <e p="ActionCalls.cs" t="Include" />
             <e p="AiWithNavMesh.cs" t="Include" />
             <e p="AnimController.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
-            <e p="CinMachineController.cs" t="Include" />
+            <e p="CinemachineController.cs" t="Include" />
+            <e p="Classes" t="Include">
+              <e p="EndGameClass.cs" t="Include" />
+              <e p="EnemyClass.cs" t="Include" />
+              <e p="PlayerClass.cs" t="Include" />
+              <e p="PowerUpClass.cs" t="Include" />
+              <e p="WeaponClass.cs" t="Include" />
+            </e>
+            <e p="Collections.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
             <e p="CreateSOData.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
+            <e p="EventListening.cs" t="Include" />
             <e p="EventsWithArgs.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="GameAction.cs" t="Include" />
@@ -46,9 +56,18 @@
             <e p="ImageController.cs" t="Include" />
             <e p="Instancer.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="DoDamage.cs" t="Include" />
+              <e p="PlayerHealth.cs" t="Include" />
+              <e p="PowerUp.cs" t="Include" />
+              <e p="TriggerListener.cs" t="Include" />
+            </e>
+            <e p="MonoEventBehaviours.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="TransformController.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />
+            <e p="UpdateEvent.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="Personal Code" t="Include">
             <e p="Nav Mesh" t="Include">
