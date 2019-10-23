@@ -15,8 +15,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CreateSOData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AiWithNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/EventListening.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interfaces/MoveLR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/TransformController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interfaces/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ActionCalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AnimController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,10 +26,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Personal Code/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Interfaces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interfaces/TriggerListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interfaces/MoveUB.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,6 +62,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/EventListening.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/TriggerListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interfaces/MoveLR.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interfaces/MoveUB.cs" />
+        <option value="$PROJECT_DIR$/Assets/Interfaces.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interfaces/MoveController.cs" />
       </list>
     </option>
   </component>
@@ -129,6 +137,7 @@
       <workItem from="1571085367504" duration="70000" />
       <workItem from="1571255026180" duration="2059000" />
       <workItem from="1571686705261" duration="4585000" />
+      <workItem from="1571859314673" duration="4087000" />
     </task>
     <servers />
   </component>

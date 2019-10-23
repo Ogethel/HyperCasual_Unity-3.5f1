@@ -58,6 +58,9 @@
             <e p="IntData.cs" t="Include" />
             <e p="Interfaces" t="Include">
               <e p="DoDamage.cs" t="Include" />
+              <e p="MoveController.cs" t="Include" />
+              <e p="MoveLR.cs" t="Include" />
+              <e p="MoveUB.cs" t="Include" />
               <e p="PlayerHealth.cs" t="Include" />
               <e p="PowerUp.cs" t="Include" />
               <e p="TriggerListener.cs" t="Include" />
