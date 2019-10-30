@@ -29,13 +29,17 @@
             </e>
           </e>
         </e>
+        <e p="BuildManager.cs" t="Include" />
         <e p="Interfaces.cs" t="Include" />
+        <e p="Node.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Anthony's Code" t="Include">
             <e p="ActionCalls.cs" t="Include" />
             <e p="AiWithNavMesh.cs" t="Include" />
             <e p="AnimController.cs" t="Include" />
+            <e p="CharacterBase.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
+            <e p="CharacterPrime.cs" t="Include" />
             <e p="CinemachineController.cs" t="Include" />
             <e p="Classes" t="Include">
               <e p="EndGameClass.cs" t="Include" />
@@ -59,8 +63,8 @@
             <e p="Interfaces" t="Include">
               <e p="DoDamage.cs" t="Include" />
               <e p="MoveController.cs" t="Include" />
-              <e p="MoveLR.cs" t="Include" />
-              <e p="MoveUB.cs" t="Include" />
+              <e p="MoveHVArrows.cs" t="Include" />
+              <e p="MoveLRArrows.cs" t="Include" />
               <e p="PlayerHealth.cs" t="Include" />
               <e p="PowerUp.cs" t="Include" />
               <e p="TriggerListener.cs" t="Include" />
