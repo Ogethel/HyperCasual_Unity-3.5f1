@@ -88,6 +88,12 @@
             <e p="SphereFollow_T1.cs" t="Include" />
             <e p="WaveSpawner.cs" t="Include" />
           </e>
+          <e p="Test Game" t="Include">
+            <e p="AnthonyClass.cs" t="Include" />
+            <e p="ClaytonClass.cs" t="Include" />
+            <e p="MartyClass.cs" t="Include" />
+            <e p="RodayneClass.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="HyperCasual_Unity3.5f1.sln" t="IncludeFlat" />
