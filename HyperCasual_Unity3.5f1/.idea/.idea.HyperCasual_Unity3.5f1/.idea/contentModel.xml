@@ -48,6 +48,8 @@
               <e p="PowerUpClass.cs" t="Include" />
               <e p="WeaponClass.cs" t="Include" />
             </e>
+            <e p="Coin.cs" t="Include" />
+            <e p="CoinCollection.cs" t="Include" />
             <e p="Collections.cs" t="Include" />
             <e p="Coroutines.cs" t="Include" />
             <e p="CreateSOData.cs" t="Include" />
