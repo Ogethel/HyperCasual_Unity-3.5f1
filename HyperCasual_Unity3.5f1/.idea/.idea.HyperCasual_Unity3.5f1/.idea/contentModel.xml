@@ -97,6 +97,12 @@
             <e p="RodayneClass.cs" t="Include" />
           </e>
         </e>
+        <e p="Weapons" t="Include">
+          <e p="AmmoHandeler.cs" t="Include" />
+          <e p="WeaponButtonHandler.cs" t="Include" />
+          <e p="WeaponConfig.cs" t="Include" />
+          <e p="WeaponHandeler.cs" t="Include" />
+        </e>
       </e>
       <e p="HyperCasual_Unity3.5f1.sln" t="IncludeFlat" />
       <e p="NavMeshComponents.csproj" t="IncludeRecursive" />

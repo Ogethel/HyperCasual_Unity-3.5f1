@@ -18,20 +18,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/TransformController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interfaces/MoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Coin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/WeaponButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ActionCalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/AnimController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CinemachineController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/WeaponHandeler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Personal Code/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/ImageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Interfaces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/AmmoHandeler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Interfaces/TriggerListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CoinCollection.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,6 +75,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Test Game/MartyClass.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/Coin.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Anthony's Code/CoinCollection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/WeaponButtonHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/AmmoHandeler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/WeaponHandeler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/WeaponConfig.cs" />
       </list>
     </option>
   </component>
@@ -148,6 +154,7 @@
       <workItem from="1572465336647" duration="2617000" />
       <workItem from="1572901052620" duration="2139000" />
       <workItem from="1573678132239" duration="2475000" />
+      <workItem from="1574108896721" duration="4634000" />
     </task>
     <servers />
   </component>
