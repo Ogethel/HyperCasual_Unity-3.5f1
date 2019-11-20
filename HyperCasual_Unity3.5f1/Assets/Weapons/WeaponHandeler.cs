@@ -17,8 +17,7 @@ public class WeaponHandeler : MonoBehaviour
     public void Fire()
     {
         var ammo = Instantiate(weaponObj.ammoObj);
-        var renderer = ammo.GetComponent<Renderer>();
-        renderer.material.color = weaponObj.RandomColor();
+        //ammo.GetComponent<AmmoHandeler>().weaponObj = weaponObj;
     }
 
     private void OnTriggerEnter(Collider other)
