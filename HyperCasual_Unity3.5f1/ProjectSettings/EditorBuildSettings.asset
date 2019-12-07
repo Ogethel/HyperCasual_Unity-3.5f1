@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/StartScreen.unity
+    guid: 8e66482daa21fc1478f15684ffcb9683
+  - enabled: 1
+    path: Assets/Scenes/TowerDefenseGame.unity
+    guid: 820761717db52b543a614895855f9ff1
+  - enabled: 1
+    path: Assets/Scenes/GameOverScreen.unity
+    guid: 99bbb11bd3c0e8a448579f16a2915d74
   m_configObjects: {}

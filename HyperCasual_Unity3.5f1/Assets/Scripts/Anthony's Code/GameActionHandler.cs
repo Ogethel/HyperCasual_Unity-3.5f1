@@ -1,11 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class GameActionHandler : MonoBehaviour
 {
 	public GameAction gameActionObj;
 	public UnityEvent handlerEvent;
-	private void Start () {
+	private void Start ()
+    {
 		gameActionObj.action += Action;
 	}
 
@@ -13,4 +15,9 @@ public class GameActionHandler : MonoBehaviour
 	{
 		handlerEvent.Invoke();
 	}
+
+    internal void Invoke()
+    {
+        throw new NotImplementedException();
+    }
 }
