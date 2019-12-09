@@ -4708,7 +4708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d30199e87f778b64ca4eefa78aa36b02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standardTurretPrefab: {fileID: 0}
+  standardTurretPrefab: {fileID: 100002, guid: 21881f88e0f99a243ae0c1636124569e, type: 3}
 --- !u!4 &126288881
 Transform:
   m_ObjectHideFlags: 0
@@ -54100,15 +54100,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1656496358, guid: ada9227f6adb25f4bb2e7bff21cb80c1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.008049419
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 1656496358, guid: ada9227f6adb25f4bb2e7bff21cb80c1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.008049419
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 1656496358, guid: ada9227f6adb25f4bb2e7bff21cb80c1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.008049419
+      value: 0.008
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada9227f6adb25f4bb2e7bff21cb80c1, type: 3}
