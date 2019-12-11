@@ -9,7 +9,8 @@ public class Node : MonoBehaviour
 
     public Color hoverColor;
     public Vector3 positionOffset;
-    
+    public GameAction bakeMesh;
+
 
     private GameObject turret;
     
@@ -32,6 +33,9 @@ public class Node : MonoBehaviour
         //Build a Turret
         GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
         turret = (GameObject)Instantiate(turretToBuild, transform.position + positionOffset, transform.rotation);
+        NavMeshSurface nm = GameObject.FindObjectOfType<NavMeshSurface>();
+        nm.UpdateNavMesh(nm.navMeshData);
+
         surface.BuildNavMesh();
     }
 
