@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Node : MonoBehaviour
 {
+    public NavMeshSurface surface;
+
     public Color hoverColor;
     public Vector3 positionOffset;
+    
 
     private GameObject turret;
-
+    
     private Renderer rend;
     private Color startColor;
 
@@ -28,6 +32,7 @@ public class Node : MonoBehaviour
         //Build a Turret
         GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
         turret = (GameObject)Instantiate(turretToBuild, transform.position + positionOffset, transform.rotation);
+        surface.BuildNavMesh();
     }
 
     private void OnMouseEnter()//Everytime the mouse moves over the object

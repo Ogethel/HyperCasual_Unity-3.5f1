@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class PlayerBase : MonoBehaviour
 {
+    
     public Color hoverColor;
 
     public GameObject playerTower;
-
+    private Vector3 newPosition;
+    private Transform parentPrefab;
     private Renderer rend;
     private Color startColor;
 
@@ -15,16 +17,17 @@ public class PlayerBase : MonoBehaviour
     {
         rend = playerTower.GetComponent<Renderer>();
         startColor = rend.material.color;
+        parentPrefab = this.transform.parent;
     }
 
-    void OnMouseDown()
+    public void OnMouseDown()
     {
         if (playerTower != null)
         {
             Debug.Log("Can't Move There! - TODO: Display in Game");
             return;
         }
-
+        playerTower.transform.position = parentPrefab.transform.position;
         //Move Player
     }
 

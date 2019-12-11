@@ -232,7 +232,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9e7292d01387bf84abe1191f7c300f8e, type: 3}
+  - {fileID: 2100000, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -286,10 +286,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b261732e3e0e264dbbd8a361d21e3cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  jumpSpeed: 30
-  gravity: 3
-  jumpData: {fileID: 11400000, guid: 86b5837415d7054469c3b87bd95867d7, type: 2}
 --- !u!143 &309831108
 CharacterController:
   m_ObjectHideFlags: 0
@@ -358,7 +354,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 17a6ffaaaa8a7d143ac8301ef9569ebe, type: 3}
+  - {fileID: 2100000, guid: 5cca8c55377eb3147b3e59abd7144c2a, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -530,6 +526,11 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  TriggerExitEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!135 &2063618771
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -560,7 +561,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ae8ed099c5e4d1745800a8c72a487851, type: 3}
+  - {fileID: 2100002, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

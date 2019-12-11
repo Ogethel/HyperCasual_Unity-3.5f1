@@ -105,3 +105,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0.40445888, g: 0.4715559, b: 0.5754717, a: 0}
+  positionOffset: {x: 0, y: 3, z: 0}
