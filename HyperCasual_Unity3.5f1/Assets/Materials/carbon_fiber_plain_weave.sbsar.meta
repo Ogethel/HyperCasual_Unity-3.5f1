@@ -282,7 +282,7 @@ ScriptedImporter:
         scale: {x: 1, y: 1}
         offset: {x: 0, y: 0}
       - name: _MainTex
-        texture: {fileID: 2800008, guid: 4557ed8f186c1f94abab560424b2657e, type: 3}
+        texture: {fileID: 2800008, guid: d1deff105675ae74182cfb5bfb8a9787, type: 3}
         scale: {x: 1, y: 1}
         offset: {x: 0, y: 0}
       - name: _MetallicGlossMap
